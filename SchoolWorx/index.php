@@ -14,7 +14,9 @@ and open the template in the editor.
         // put your code here
         echo "SchoolWorx is a platform for education";
         ?>
-        
-        <button action="mainMenu.php" />
+
+        <form action="mainMenu.php" method="post">
+            <input type='submit' name='submit' class='register' />
+        </form>
     </body>
 </html>
