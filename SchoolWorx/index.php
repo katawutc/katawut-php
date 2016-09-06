@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
-        echo "Ha Ha Ha";
+        echo "SchoolWorx is a platform for education";
         ?>
     </body>
 </html>
