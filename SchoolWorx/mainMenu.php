@@ -11,10 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
-        echo "SchoolWorx is a platform for education";
+        echo "This is the main menu page.";
         ?>
-        
-        <button action="mainMenu.php" />
     </body>
 </html>
