@@ -14,19 +14,6 @@ and open the template in the editor.
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="mainMenu.php">SchoolWorx</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="mainMenu.php">Home</a></li>
-                    <li><a href="myCourses.php">My Courses</a></li>
-                    <li><a href="#">Generate document</a></li>
-                    <li><a href="#">Doing Homework</a></li>
-                </ul>
-            </div>
-        </nav>
-
+        <?php include("navigationBar.html"); ?>
     </body>
 </html>
