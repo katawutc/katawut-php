@@ -17,13 +17,13 @@ and open the template in the editor.
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">SchoolWorx</a>
+                    <a class="navbar-brand" href="mainMenu.php">SchoolWorx</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="mainMenu.php">Home</a></li>
                     <li><a href="myCourses.php">My Courses</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#">Generate document</a></li>
+                    <li><a href="#">Doing Homework</a></li>
                 </ul>
             </div>
         </nav>
