@@ -14,10 +14,8 @@ and open the template in the editor.
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <?php
-        // put your code here
-        echo "SchoolWorx is a platform for education";
-        ?>
+
+        <h1>SchoolWorx is a platform for education</h1>
 
         <form action="mainMenu.php" method="post">
             <div class="form-group">
