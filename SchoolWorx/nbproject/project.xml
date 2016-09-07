@@ -5,5 +5,8 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>SchoolWorx</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>SchoolWorx</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>

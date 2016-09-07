@@ -17,13 +17,13 @@ and open the template in the editor.
         <?php
         echo "This is the main menu page.";
         ?>
-
-        <ul class="nav nav-pills">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Menu 1</a></li>
-            <li><a href="#">Menu 2</a></li>
-            <li><a href="#">Menu 3</a></li>
-        </ul>
+        <div class="container">
+            <h2>Button</h2>
+            <p>The .btn class adds basic styling to a button:</p>
+            <button type="button" class="btn">Basic Button</button>
+        </div>
+        
+        <script> </script>
 
     </body>
 </html>
