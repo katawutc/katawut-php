@@ -14,6 +14,28 @@ and open the template in the editor.
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
+
+        <?php
+        // Start the session
+        session_start();
+        ?>
+
+        /** Database connection */
+        <?php
+        $servername = "localhost";
+        $username = "root";
+        $password = "root";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        echo "Connected Database successfully";
+        ?> 
+
+
         <?php include("navigationBar.html"); ?>
         <?php include("classTimeTable.html"); ?>
 
