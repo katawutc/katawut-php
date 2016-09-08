@@ -15,5 +15,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php include("navigationBar.html"); ?>
+        <?php include("classTimeTable.html"); ?>
+        
+        <!-- News -->
+        <!-- Reminder -->
+
+
     </body>
 </html>
