@@ -16,9 +16,18 @@ and open the template in the editor.
     <body>
         <?php include("navigationBar.html"); ?>
         <?php include("classTimeTable.html"); ?>
-        
+
         <!-- News -->
         <!-- Reminder -->
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:yellow;">
+                <h4> To add News panel </h4>
+            </div>
+            <div class="col-sm-6" style="background-color:pink;">
+                <h4> To add Reminder panel </h4>  
+            </div>
+        </div>
 
 
     </body>
