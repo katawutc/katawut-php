@@ -20,6 +20,51 @@ and open the template in the editor.
         session_start();
         ?>
 
+        <!--  HTTP authentication with PHP -->
+        //<?php
+        // Using Cookie Authentication
+        //$secret_word = 'if i ate spinach';
+        //if (validate($_POST['username'], $_POST['password'])) {
+        //    setcookie('login', $_POST['username'] . ',' . md5($_POST['username'] . $secret_word));
+       // }
+
+        //$email = \filter_input(INPUT_POST, 'username', FILTER_VALIDATE_EMAIL);
+        //if ($email === false) {
+        //    print "Submitted email address is invalid.";
+        //}
+
+        //if (!isset($_SERVER['PHP_AUTH_USER'])) {
+        //    header('WWW-Authenticate: Basic realm="My Realm"');
+        //    header('HTTP/1.0 401 Unauthorized');
+        //    echo 'Text to send if user hits Cancel button';
+
+        //    header('http://localhost:8888/SchoolWorx/index.php');
+        //    exit();
+
+
+
+        //    exit;
+       // } else {
+        //    echo "<p>Hello {$_SERVER['PHP_AUTH_USER']}.</p>";
+        //    echo "<p>You entered {$_SERVER['PHP_AUTH_PW']} as your password.</p>";
+        //}
+        //?>
+        
+        //<?php
+
+        //function validate($user, $pass) {
+            /* replace with appropriate username and password checking,
+              such as checking a database */
+        //    $users = array('david' => 'fadj&32', 'adam' => '8HEj838');
+        //    if (isset($users[$user]) && ($users[$user] === $pass)) {
+        //        return true;
+        //    } else {
+        //        return false;
+        //    }
+        //}
+        //?>
+
+
         /** Database connection */
         <?php
         $servername = "localhost";
